@@ -2,18 +2,20 @@
 using System.Collections.Generic;
 
 
-class List {
-    public static int Sum(List<int> myList) {
-        int sum = 0;
-        HashSet<int> newList = new HashSet<int>();
-        foreach (int number in myList)
+class List
+{
+    public static int Sum(List<int> myList)
+    {
+        var newList = new List<int>();
+        var sum = 0;
+
+        foreach (var num in myList)
         {
-            newList.Add(number);
+            if (!newList.Contains(num))
+                newList.Add(num);
         }
-        foreach (var item in newList)
-        {
-            sum = sum + item;
-        }
-        return sum;
+        foreach (var num in newList)
+            sum = sum + num;
+        return (sum);
     }
 }
