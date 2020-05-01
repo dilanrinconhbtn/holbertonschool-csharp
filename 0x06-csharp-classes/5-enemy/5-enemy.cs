@@ -19,6 +19,9 @@ namespace Enemies
         {
             health = 0;
         }
+        /// <summary> 
+        ///private class Zombie value int
+        ///</summary>
         public Zombie(int value)
         {
             if(value < 0)
@@ -30,10 +33,16 @@ namespace Enemies
                 health = value;
             }
         }
+        /// <summary> 
+        ///private class Get health
+        ///</summary>
         public int GetHealth()
         {
             return health;
         }
+        /// <summary> 
+        ///private Name 
+        ///</summary>
         public string Name
         {
             get
@@ -45,6 +54,9 @@ namespace Enemies
                 name=value;
             }
         }
+        /// <summary> 
+        ///private override Tostring
+        ///</summary>
         public override string ToString()
         {
             return String.Format("Zombie Name: {0} / Total Health: {1}",name,health);
