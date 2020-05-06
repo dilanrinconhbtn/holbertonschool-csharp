@@ -5,6 +5,7 @@ namespace MyMath.Tests
 {
     public class OperationsTests
     {
+        /// <summary>Tests</summary>
         [Test]
         public void PositiveResult()
         {
