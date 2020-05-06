@@ -35,7 +35,7 @@ namespace MyMath.Tests
         }
         public void ListNull()
         {
-            List<int> num = new List<int>(); 
+            List<int> num  = null; 
 
             int result = Operations.Max(num);
 
