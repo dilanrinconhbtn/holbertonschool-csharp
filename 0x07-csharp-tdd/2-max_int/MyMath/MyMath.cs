@@ -11,7 +11,7 @@ namespace MyMath
         /// <returns>max integer in list, If nums is empty, return 0</returns>
         public static int Max(List<int> nums)
         {
-            if(nums == null || nums <= 0)
+            if(nums == null || nums.Count <= 0)
             {
                 return 0;
             }
