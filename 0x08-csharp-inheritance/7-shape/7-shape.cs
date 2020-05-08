@@ -1,6 +1,6 @@
 ﻿using System;
 
-
+///<summary>class Shape</summary>
 class Shape
 {
     ///<summary>throw exception NotImplementedException</summary>
@@ -9,7 +9,7 @@ class Shape
         throw new NotImplementedException("Area() is not implemented");
     }
 }
-
+///<summary>class Rectangle : Shape</summary>
 class Rectangle : Shape
 {
     private int width;
