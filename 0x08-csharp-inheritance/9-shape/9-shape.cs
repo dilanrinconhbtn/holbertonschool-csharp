@@ -12,8 +12,8 @@ class Shape
 ///<summary>class Rectangle : Shape</summary>
 class Rectangle : Shape
 {
-    private int width;
-    private int height;
+    public int width;
+    public int height;
 
     ///<summary>Width</summary>
     public int Width
